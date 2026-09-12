@@ -22,3 +22,6 @@ Git - Beginner
 Russian - native
 
 English - C1
+
+## Education and courses
+* ***University***: International Academy of Business and New Technologies (MUBiNT), Bachelor's degree, Faculty of Linguistics and Translation, 2016-2021
