@@ -1,1 +1,1 @@
-# rsschool-cv
+# [Curriculum Vitae](https://bittersweet-disaster.github.io/rsschool-cv/cv)
