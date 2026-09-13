@@ -10,7 +10,125 @@
 </head>
 
 <body>
+  <header class="header">
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education & Courses</a></li>
+        <li><a href="#code-example">Code Example</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section class="banner container">
+      <div class="banner-container">
+        <img src="" alt="my photo" class="my-photo">
+        <h1>Olga Kamakhina <br> Junior Frontend Developer</h1>
+      </div>
+    </section>
+
+    <section class="contacts container" id="contacts">
+      <div class="contacts-container">
+        <h2 class="section-header">Contacts</h2>
+        <ul class="contacts-list">
+          <li>Location: Russia, Yaroslavl</li>
+          <li>GitHub: <a href="https://github.com/bittersweet-disaster">bittersweet-disaster</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="about-me container" id="about-me">
+      <div class="about-me-container"></div>
+      <h2 class="section-header">About Me</h2>
+      <p>I've never worked in the IT-industry, but I've always enjoyed working with computers. After school I decided to
+        study programming at university, but things didn't go as planned and I changed my course of study to
+        linguistics. However, some time ago, I realized that I had the skills to become a developer, so now I'm learning
+        programming again. My goal is to master front-end (or maybe even a full stack, because I have an interest in
+        Python too) development and pursue a career in this field in the future.
+      </p>
+    </section>
+
+    <section class="skills container" id="skills">
+      <div class="skills-container">
+        <h2 class="section-header">Skills</h2>
+        <ul class="skills-list">
+          <li>HTML - Intermediate</li>
+          <li>CSS - Intermediate</li>
+          <li>JavaScript - Beginner</li>
+          <li>Python - Beginner</li>
+          <li>Git - Beginner</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="languages container" id="languages">
+      <div class="languages-container">
+        <h2 class="section-header">Languages</h2>
+        <ul class="languages-list">
+          <li>Russian - native</li>
+          <li>English - C1</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects container" id="projects">
+      <div class="projects-container">
+        <h2 class="section-header">Projects</h2>
+        <p>I used to have a portfolio with projects, but then I realized that many of them weren't so good, and I
+          decided
+          to create a new better portfolio with better projects. So just wait for the update!
+        </p>
+      </div>
+    </section>
+
+    <section class="education container" id="education">
+      <div class="education-container">
+        <h2 class="section-header">Education and courses</h2>
+        <p class="university">
+          <span>University:</span> International Academy of Business and New Technologies (MUBiNT),
+          Bachelor's degree, Faculty of Linguistics and Translation, 2016-2021
+        </p>
+      </div>
+    </section>
+
+    <section class="code-example container" id="code-example">
+      <div class="code-example-container">
+        <h2 class="section-header">Code example</h2>
+        <p>Code example from Codewars:
+          <a href="https://www.codewars.com/kata/5574835e3e404a0bed00001b">Handshake problem</a>
+        </p>
+        <pre>
+        <code>
+function getParticipants(handshakes) {
+  for (let i = 0; i &lt;= 1000; i++) {
+    if ((i**2 - i)/2 == handshakes) {
+      console.log(i)
+      return i;
+    } else if ((((i-1)**2 - (i-1))/2 &lt; handshakes) && ((i**2 - i)/2 > handshakes)) {
+    console.log(i)
+    return i
+    }
+  }
+}
+        </code>
+      </pre>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="cv-year">&#169; 2026</p>
+      <a href="https://github.com/WhiteAnemone" target="_blank" class="link-github">bittersweet-disaster</a>
+      <a href="https://rs.school/js/" target="_blank" class="logo-rsschool">
+        <img src="" alt="rsschool logo">
+      </a>
+    </footer>
+
+  </main>
 </body>
 
 </html>
