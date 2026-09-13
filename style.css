@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Carattere';
+  src: local('Carattere Regular'), local('Carattere-Regular'),
+    url('assets/fonts/Carattere-Regular.woff2') format('woff2'),
+    url('assets/fonts/Carattere-Regular.woff') format('woff'),
+    url('assets/fonts/Carattere-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
